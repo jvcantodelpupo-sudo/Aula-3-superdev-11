@@ -1,0 +1,34 @@
+::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    border: 5px dotted black;
+    height: 415px;
+    width: 600px;
+}
+
+body {
+    border: 2px solid black;
+    display: flex;
+    align-items: wrap;
+}
+
+#topo {
+    border: 5px solid black;
+    height: 390px;
+    padding: .25rem;
+    background-color: tan;
+}
+
+.ingresso {
+    border: 5px solid black;
+    height: 290px;
+    padding: .25rem;
+    background-color: tan;    
+}
+
+main {
+    background-color: tan;
+    padding: 7px;
+}

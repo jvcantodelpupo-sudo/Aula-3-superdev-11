@@ -1,0 +1,68 @@
+html {
+    background: linear-gradient(135deg,,);
+}
+
+#topo {
+    color:blue;
+    border: 2px solid red;
+    border-radius: 5px;
+        padding: 16px;
+}
+
+#avisos {
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 16px;
+        padding: 16px;
+        width: 25rem;
+    
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: coral;
+}
+
+.aviso.aviso-urgente {
+    color: violet;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.aviso.aviso-urgente h3 {
+    color:blue;
+}
+
+#orientacoes {
+    color: magenta;
+    border: 2px solid red;
+    border-radius: 5px;
+        padding: 16px;
+        width: 30rem;
+ }
+
+ #contato {
+    color: yellow;
+        padding: 16px;
+ }
+
+ a:hover {
+    color:white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+ a[href^="mailto:"] {
+    text-decoration: none;
+    color:coral;
+}
+
+footer {
+    background-color: blueviolet;
+    box-shadow: 10px 5px 5px black;
+}
