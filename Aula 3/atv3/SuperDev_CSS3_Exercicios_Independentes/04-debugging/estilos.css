@@ -1,0 +1,36 @@
+/* Esta atividade tem CSS propositalmente confuso. Corrija sem usar !important. */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #233043;
+}
+
+.mensagem {
+  background: #fff;
+  border: 2px solid #a9b9cc;
+  padding: 18px;
+  margin: 24px 0;
+}
+
+/* Problema 1: existe uma regra mais específica anulando esta cor. */
+.importante { background: #ffe4c5; }
+#alerta { background: #ffffff; }
+
+/* Problema 2: padding vertical não se comporta como esperado em link inline. */
+.botao {
+  background: #244f82;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Problema 3: a largura final da caixa ficou maior do que o solicitado. */
+.mensagem {
+  width: 320px;
+  padding: 30px;
+  border-width: 6px;
+}
+
+/* Problema 4: a regra abaixo tenta estilizar a classe como se fosse um elemento. */
+importante h2 { color: #982f18; }

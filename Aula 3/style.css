@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(71, 61, 64);
+}
+
+h1 {
+    color:aquamarine;
+}
+
+h2 {
+    color:cadetblue;
+}
+
+p {
+    color:beige;
+}
+
+a {
+    color:coral;
+}
+
+.fruta {
+    font-family:cursive;
+}
+
+.fruta a {
+    text-decoration: none;
+}
+
+a[href^="mailto:"] {
+    /*comandos*/
+}
